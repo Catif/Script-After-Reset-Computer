@@ -1,0 +1,22 @@
+- Adobe Acrobat
+- Auto Quality for Youtube
+- BetterTTV
+- Blackbox
+- LanguageTool
+- CSSViewer
+- daily.dev
+- Google traduction
+- Grepper
+- HTTPS Everywhere
+- I don't care about cookies
+- JSON Viewer
+- Keepa
+- LastPass
+- Live Server Web Extension
+- MetaMask
+- Return YouTube Dislike
+- Scribe
+- Sound Booster
+- Tampermonkey
+- uBlock Origin
+- Wappalyzer
