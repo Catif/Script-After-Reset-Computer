@@ -1,0 +1,6 @@
+Après installation, mettre les fichiers français de côté
+   => Installer la version japonaise du jeu
+		=> Mettre de côté les voix japonaise et remettre les voix française
+			=> Remettre le jeux en français
+				=> Remettre les voix japonaises dans le dossier du jeu
+					=> mettre l'option de lancement sur steam : +miles_language japanese
