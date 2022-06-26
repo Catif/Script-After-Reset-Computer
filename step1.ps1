@@ -29,6 +29,7 @@ choco install epicgameslauncher -y
 
 
 # Variable d'environnement
+choco install git -y
 choco install nodejs-lts -y
 choco install php -y
 choco install composer -y
