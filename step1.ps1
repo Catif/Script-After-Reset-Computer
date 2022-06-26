@@ -4,7 +4,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 # permet d'accepter l'installation de tous les programmes ci-dessous
 choco feature enable -n=allowGlobalConfirmation
 
-# Listes des logiciels à télécharger (pendre les noms sur le site Chocolatey => https://community.chocolatey.org)
+# Listes des logiciels à télécharger (pendre les noms sur le site Chocolatey => https://community.chocolatey.org/packages)
 $logiciels = @(
     # Logiciel général
     'unchecky',
