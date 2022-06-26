@@ -5,3 +5,6 @@ Ce script me permet d'installer la presque totalité des logiciels qui me sont u
 J'utilise la library [Chocolatey](https://chocolatey.org) qui permet de télécharger des logiciels en fond. 
 
 Je mettrais à jour la liste en fonction des logiciels que j'ai besoin.
+
+
+N'hésitez pas à m'envoyer un pull request pour ajouter des logiciels utile !
