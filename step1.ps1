@@ -17,7 +17,6 @@ choco install eartrumpet -y
 choco install razer-synapse-3 -y
 choco install icue -y
 choco install qbittorrent -y
-choco install office365business -y
 choco install audacity -y
 choco install telegram -y
 
