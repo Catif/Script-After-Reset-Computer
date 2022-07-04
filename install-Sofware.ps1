@@ -44,7 +44,7 @@ $logiciels = @(
     
     
     # Logiciel Développeur
-    'wamp-server',
+    # 'wamp-server',  # Erreur lors de l'installation (http://disq.us/p/2otgdyl)
     'actiona',
     'vscode',
     'visualstudio-installer',
