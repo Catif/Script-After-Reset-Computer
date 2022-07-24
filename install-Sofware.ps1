@@ -23,6 +23,7 @@ $logiciels = @(
     'qbittorrent',
     'audacity',
     'telegram',
+    'winaero-tweaker',
 
 
 
