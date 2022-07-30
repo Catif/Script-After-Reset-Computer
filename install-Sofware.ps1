@@ -32,6 +32,7 @@ $logiciels = @(
     'origin',
     'steam-client',
     'epicgameslauncher',
+    'ubisoft-connect',
 
     
     
