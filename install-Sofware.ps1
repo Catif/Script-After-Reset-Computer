@@ -52,7 +52,7 @@ $logiciels = @(
     'visualstudio-installer',
     'filezilla',
     'github-desktop',
-    'figma',  
+    # 'figma',  # Erreur lors de l'installation (http://disq.us/p/2ipgc04) 
     'putty'
 )
 
