@@ -12,6 +12,7 @@ $logiciels = @(
     'discord',
     'winrar',
     'vlc',
+    'adobereader',
     'obs-studio',
     'paint.net',
     'everything',
@@ -24,7 +25,6 @@ $logiciels = @(
     'audacity',
     'telegram',
     'winaero-tweaker',
-
 
 
     # Logiciel de jeu
