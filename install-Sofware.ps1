@@ -52,6 +52,7 @@ $logiciels = @(
     'visualstudio-installer',
     'filezilla',
     'github-desktop',
+    'figma',  
     'putty'
 )
 
