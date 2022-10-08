@@ -25,6 +25,7 @@ $logiciels = @(
     'audacity',
     'telegram',
     'winaero-tweaker',
+    'powertoys',
 
 
     # Logiciel de jeu
