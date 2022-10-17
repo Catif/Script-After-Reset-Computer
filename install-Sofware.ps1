@@ -29,6 +29,7 @@ $logiciels = @(
 
 
     # Logiciel de jeu
+    'ngrok',
     'hamachi',
     'origin',
     'steam-client',
