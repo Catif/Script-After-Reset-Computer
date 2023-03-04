@@ -47,6 +47,7 @@ $logiciels = @(
     'winaero-tweaker',
     'powertoys',
     'googlechrome',
+    'plex',
 
 
     # Logiciel de jeu
