@@ -30,6 +30,8 @@ $logiciels = @(
     'putty'
 
     # Logiciel général
+    'googlechrome',
+    'firefox',
     'unchecky',
     'discord',
     'winrar',
@@ -46,7 +48,6 @@ $logiciels = @(
     'telegram',
     'winaero-tweaker',
     'powertoys',
-    'googlechrome',
     'plex',
     'elevenclock',
 
