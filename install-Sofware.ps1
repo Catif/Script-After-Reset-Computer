@@ -48,6 +48,7 @@ $logiciels = @(
     'powertoys',
     'googlechrome',
     'plex',
+    'elevenclock',
 
 
     # Logiciel de jeu
