@@ -18,6 +18,7 @@ $logiciels = @(
     'composer',
     'python',
     'sass',
+    'ngrok',
 
     # Logiciel Développeur
     'actiona',
@@ -49,7 +50,6 @@ $logiciels = @(
 
 
     # Logiciel de jeu
-    'ngrok',
     'hamachi',
     'origin',
     'steam-client',
