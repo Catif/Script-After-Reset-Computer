@@ -19,6 +19,7 @@ $logiciels = @(
     'python',
     'sass',
     'ngrok',
+    'ffmpeg',
 
     # Logiciel Développeur
     'actiona',
