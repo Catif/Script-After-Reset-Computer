@@ -28,7 +28,8 @@ $logiciels = @(
     'filezilla',
     'github-desktop',
     # 'figma',  # Erreur lors de l'installation (http://disq.us/p/2ipgc04) 
-    'putty'
+    'putty',
+    'postman',
 
     # Logiciel général
     'googlechrome',
