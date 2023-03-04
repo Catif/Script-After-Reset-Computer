@@ -6,9 +6,30 @@ choco feature enable -n=allowGlobalConfirmation
 
 # Listes des logiciels à télécharger (pendre les noms sur le site Chocolatey => https://community.chocolatey.org/packages)
 $logiciels = @(
+    # Logiciel périphérique
+    'razer-synapse-3',
+    'icue',
+    'lghub',
+
+    # Variable d'environnement
+    'git',
+    'nodejs-lts',
+    'php',
+    'composer',
+    'python',
+    'sass',
+
+    # Logiciel Développeur
+    'actiona',
+    'vscode',
+    'visualstudio-installer',
+    'filezilla',
+    'github-desktop',
+    # 'figma',  # Erreur lors de l'installation (http://disq.us/p/2ipgc04) 
+    'putty'
+
     # Logiciel général
     'unchecky',
-    'vivaldi',
     'discord',
     'winrar',
     'vlc',
@@ -19,13 +40,12 @@ $logiciels = @(
     'sharex',
     '1clipboard',
     'eartrumpet',
-    'razer-synapse-3',
-    'icue',
     'qbittorrent',
     'audacity',
     'telegram',
     'winaero-tweaker',
     'powertoys',
+    'googlechrome',
 
 
     # Logiciel de jeu
@@ -35,28 +55,6 @@ $logiciels = @(
     'steam-client',
     'epicgameslauncher',
     'ubisoft-connect',
-
-    
-    
-    # Variable d'environnement
-    'git',
-    'nodejs-lts',
-    'php',
-    'composer',
-    'python',
-    'sass',
-    
-    
-    
-    # Logiciel Développeur
-    # 'wamp-server',  # Erreur lors de l'installation (http://disq.us/p/2otgdyl)
-    'actiona',
-    'vscode',
-    'visualstudio-installer',
-    'filezilla',
-    'github-desktop',
-    # 'figma',  # Erreur lors de l'installation (http://disq.us/p/2ipgc04) 
-    'putty'
 )
 
 # Boucle d'installation de tous les logiciels
