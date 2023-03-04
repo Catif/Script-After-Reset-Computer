@@ -36,7 +36,6 @@ $logiciels = @(
     'discord',
     'winrar',
     'vlc',
-    'adobereader',
     'obs-studio',
     'paint.net',
     'everything',
