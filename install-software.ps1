@@ -9,7 +9,7 @@ $logiciels = @(
     # Logiciel périphérique
     'razer-synapse-3',
     'icue',
-    'lghub',
+    'lghub', # Obligation de le fermé après l'installation pour continuer le script
 
     # Variable d'environnement
     'git',
