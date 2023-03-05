@@ -58,7 +58,7 @@ $logiciels = @(
     'origin',
     'steam-client',
     'epicgameslauncher',
-    'ubisoft-connect',
+    'ubisoft-connect'
 )
 
 # Boucle d'installation de tous les logiciels
