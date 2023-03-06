@@ -1,17 +1,19 @@
 # Script-After-Reset-Computer
 
-Ce script me permet d'installer la presque totalité des logiciels qui me sont utiles après une remise à zéro de mon pc windows.
+This script allows me to install almost all the software that is useful to me after a reset of my windows pc.
 
-J'utilise la library [Chocolatey](https://chocolatey.org) qui permet de télécharger des logiciels en ligne de commande (donc automatisable).
+I use the [Chocolatey](https://chocolatey.org) library which allows you to download software from the command line (so automatable).
 
-Je mettrais à jour la liste en fonction des logiciels que j'ai besoin.
+I will update the list according to the software I need.
 
-N'hésitez pas à créer une issue si vous rencontrez des erreurs pendant l'éxécution.
+Feel free to create an issue if you encounter errors during execution.
 
-## Lancement du script
+## Launching the script
 
-Le script étant en PowerShell, il faut lancer le script en tant qu'administrateur :
+The script being in PowerShell, you must launch the script as an administrator:
 
 ```powershell
-Set-ExecutionPolicy Bypass -Scope Process -Force; .\install-software.ps1
+Set-ExecutionPolicy RemoteSigned
 ```
+
+---
