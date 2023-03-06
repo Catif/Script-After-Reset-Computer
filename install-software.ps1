@@ -51,7 +51,6 @@ $softwares = @(
     # Software of development
     'actiona',
     'vscode',
-    'visualstudio-installer',
     'github-desktop',
     'filezilla',
     # 'figma',  # Error when downloaded (http://disq.us/p/2ipgc04) 
