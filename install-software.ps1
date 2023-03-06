@@ -9,7 +9,7 @@ $logiciels = @(
     # Logiciel de jeu
     'hamachi',
     'origin',
-    'steam-client',
+    'steam',
     'epicgameslauncher',
 
     # Logiciel général
