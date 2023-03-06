@@ -8,15 +8,15 @@ choco feature enable -n=allowGlobalConfirmation
 # Comment/remove the software you don't want to install
 $softwares = @(
     # Logiciel de jeu
-    'hamachi',
-    'origin',
     'steam',
+    'origin',
     'epicgameslauncher',
+    'hamachi',
 
     # Logiciel général
     'googlechrome',
-    'firefox',
     'discord',
+    'firefox',
     'winrar',
     'vlc',
     'obs-studio',
@@ -52,8 +52,8 @@ $softwares = @(
     'actiona',
     'vscode',
     'visualstudio-installer',
-    'filezilla',
     'github-desktop',
+    'filezilla',
     # 'figma',  # Error when downloaded (http://disq.us/p/2ipgc04) 
     'putty',
     'postman',
