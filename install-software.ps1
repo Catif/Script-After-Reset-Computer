@@ -15,7 +15,6 @@ $logiciels = @(
     # Logiciel général
     'googlechrome',
     'firefox',
-    'unchecky',
     'discord',
     'winrar',
     'vlc',
