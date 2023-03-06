@@ -6,6 +6,34 @@ choco feature enable -n=allowGlobalConfirmation
 
 # Listes des logiciels à télécharger (pendre les noms sur le site Chocolatey => https://community.chocolatey.org/packages)
 $logiciels = @(
+    # Logiciel de jeu
+    'hamachi',
+    'origin',
+    'steam-client',
+    'epicgameslauncher',
+    'ubisoft-connect',
+
+    # Logiciel général
+    'googlechrome',
+    'firefox',
+    'unchecky',
+    'discord',
+    'winrar',
+    'vlc',
+    'obs-studio',
+    'paint.net',
+    'everything',
+    'sharex',
+    '1clipboard',
+    'eartrumpet',
+    'qbittorrent',
+    'audacity',
+    'telegram',
+    'winaero-tweaker',
+    'powertoys',
+    'plex',
+    'elevenclock',
+
     # Logiciel périphérique
     'razer-synapse-3',
     'icue',
@@ -30,35 +58,6 @@ $logiciels = @(
     # 'figma',  # Erreur lors de l'installation (http://disq.us/p/2ipgc04) 
     'putty',
     'postman',
-
-    # Logiciel général
-    'googlechrome',
-    'firefox',
-    'unchecky',
-    'discord',
-    'winrar',
-    'vlc',
-    'obs-studio',
-    'paint.net',
-    'everything',
-    'sharex',
-    '1clipboard',
-    'eartrumpet',
-    'qbittorrent',
-    'audacity',
-    'telegram',
-    'winaero-tweaker',
-    'powertoys',
-    'plex',
-    'elevenclock',
-
-
-    # Logiciel de jeu
-    'hamachi',
-    'origin',
-    'steam-client',
-    'epicgameslauncher',
-    'ubisoft-connect'
 )
 
 # Boucle d'installation de tous les logiciels
