@@ -11,7 +11,6 @@ $logiciels = @(
     'origin',
     'steam-client',
     'epicgameslauncher',
-    'ubisoft-connect',
 
     # Logiciel général
     'googlechrome',
