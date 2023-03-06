@@ -1,11 +1,11 @@
-﻿# Installation de Chocolatey
+﻿# Install Chocolatey
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
 
-# permet d'accepter l'installation de tous les programmes ci-dessous
+# Accept All Software Licence (https://docs.chocolatey.org/en-us/configuration#security => allowGlobalConfirmation is false by default)
 choco feature enable -n=allowGlobalConfirmation
 
-# Listes des logiciels à télécharger (pendre les noms sur le site Chocolatey => https://community.chocolatey.org/packages)
-$logiciels = @(
+# List of softwares will be installed (Takes name here => https://community.chocolatey.org/packages)
+$softwares = @(
     # Logiciel de jeu
     'hamachi',
     'origin',
@@ -32,12 +32,12 @@ $logiciels = @(
     'plex',
     'elevenclock',
 
-    # Logiciel périphérique
+    # Software of peripherals
     'razer-synapse-3',
     'icue',
-    'lghub', # Obligation de le fermé après l'installation pour continuer le script
+    'lghub', # Should be closed after installation to continue the script
 
-    # Variable d'environnement
+    # Env variable
     'git',
     'nodejs-lts',
     'php',
@@ -47,18 +47,18 @@ $logiciels = @(
     'ngrok',
     'ffmpeg',
 
-    # Logiciel Développeur
+    # Software of development
     'actiona',
     'vscode',
     'visualstudio-installer',
     'filezilla',
     'github-desktop',
-    # 'figma',  # Erreur lors de l'installation (http://disq.us/p/2ipgc04) 
+    # 'figma',  # Error when downloaded (http://disq.us/p/2ipgc04) 
     'putty',
     'postman',
 )
 
-# Boucle d'installation de tous les logiciels
-Foreach($logiciel in $logiciels) {
+# Run every software installation
+Foreach($logiciel in $softwares) {
     choco install $logiciel
 }
