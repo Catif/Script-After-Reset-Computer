@@ -5,6 +5,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 choco feature enable -n=allowGlobalConfirmation
 
 # List of softwares will be installed (Takes name here => https://community.chocolatey.org/packages)
+# Comment/remove the software you don't want to install
 $softwares = @(
     # Logiciel de jeu
     'hamachi',
