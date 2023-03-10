@@ -47,6 +47,7 @@ $softwares = @(
     'sass',
     'ngrok',
     'ffmpeg',
+    'docker-desktop',
 
     # Software of development
     'actiona',
