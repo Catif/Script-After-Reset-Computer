@@ -48,7 +48,8 @@ $softwares = @(
     'ngrok',
     'ffmpeg',
     'docker-desktop',
-
+    'javaruntime',
+    
     # Software of development
     'actiona',
     'vscode',
